@@ -16,7 +16,7 @@ public class ModelServiceImpl implements IModelService{
 	
 	@Override
 	public void addUser(Model user) {
-		// TODO Auto-generated method stub
+		// TODO Auto-mm method stub
 		modelRepo.save(user);
 		System.out.println("Added");
 	}
